@@ -14,4 +14,4 @@ Link to another page
 [page description](https://site)
 
 Insert an image
-![image description](/cc-odonnell/portfolio/assets/tanker_image.png)
+![image description](https://github.com/cc-odonnell/portfolio/blob/main/assets/tanker_image.png)
