@@ -14,4 +14,4 @@ Link to another page
 [page description](https://site)
 
 Insert an image
-![image description](assets/tanker_image.png)
+![image description](./assets/tanker_image.png)
