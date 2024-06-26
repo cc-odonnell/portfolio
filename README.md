@@ -10,8 +10,10 @@ _ italics _
 some code here
 ```
 
-Link to another page
-[Supply Chain Network Design](./supply_chain_network_design.md)
+## Sample Projects
+
+### Supply Chain Network Design
+[Supply Chain Network Design](https://cc-odonnell.github.io/portfolio/supply_chain_network_design.md)
 
 Insert an image
 ![image description](./assets/tanker_image.png)
