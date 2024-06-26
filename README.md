@@ -13,7 +13,7 @@ some code here
 ## Sample Projects
 
 ### Supply Chain Network Design
-[Supply Chain Network Design](https://cc-odonnell.github.io/portfolio/supply_chain_network_design.html)
+[Supply Chain Network Design](https://cc-odonnell.github.io/portfolio/_pages/supply_chain_network_design.html)
 
 Insert an image
 ![image description](./assets/tanker_image.png)
