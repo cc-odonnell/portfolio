@@ -1,7 +1,9 @@
 How Supply Chain Strategy Can Tackle Infectious Diseases
+
 Where should NGOs and government agencies locate medical centers for the rapid treatment of Ebola patients? Replace “medical centers and patients” with “stores and customers” or “manufacturing plants and warehouses” and this becomes a typical look at network topology and design. 
 
 **Visualizations Created with Tableau** 
+
 *Note: Data taken from publicly available sources.*
 
 When the Ebola virus swept through West Africa from April 2014 to March 2015, the urgency to effectively treat patients was paramount. Understanding where to place medical centers for rapid treatment became a critical task for NGOs and government agencies. By applying a strategic supply chain approach—similar to locating stores for customers or positioning manufacturing plants near warehouses—we can significantly improve healthcare outcomes.
@@ -10,13 +12,13 @@ When the Ebola virus swept through West Africa from April 2014 to March 2015, th
 
 The Ebola outbreak reached its zenith in December 2014, with Liberia and Sierra Leone bearing the brunt. Liberia saw two distinct waves in September and December, while Guinea experienced a steady stream of cases, ranking third in severity.
 
-
+![Timeline of Outbreaks by Country](./assets/tanker_image.png)
 
 **Medical Centers Status**
 
 By November 2014, Western Africa had 50 functional medical centers, 54 pending, and 4 closed. These centers were densely clustered in Sierra Leone and Liberia, reflecting the regions' high case counts. 
 
-
+![Map of Western Africa](./assets/tanker_image.png)
 
 
 **A Strategic Approach to Supply Chain**
