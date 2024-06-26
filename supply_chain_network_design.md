@@ -1,4 +1,6 @@
-How Supply Chain Strategy Can Tackle Infectious Diseases
+theme: jekyll-theme-minimal
+
+*How Supply Chain Strategy Can Tackle Infectious Diseases*
 
 Where should NGOs and government agencies locate medical centers for the rapid treatment of Ebola patients? Replace “medical centers and patients” with “stores and customers” or “manufacturing plants and warehouses” and this becomes a typical look at network topology and design. 
 
