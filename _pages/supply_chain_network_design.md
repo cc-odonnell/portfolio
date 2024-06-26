@@ -12,7 +12,7 @@ When the Ebola virus swept through West Africa from April 2014 to March 2015, th
 
 The Ebola outbreak reached its zenith in December 2014, with Liberia and Sierra Leone bearing the brunt. Liberia saw two distinct waves in September and December, while Guinea experienced a steady stream of cases, ranking third in severity.
 
-![Timeline of Outbreaks by Country](./assets/tanker_image.png)
+![Timeline of Outbreaks by Country](./portfolio/assets/tanker_image.png)
 
 **Medical Centers Status**
 
