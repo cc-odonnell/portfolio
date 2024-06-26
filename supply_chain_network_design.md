@@ -1,4 +1,9 @@
+---
+layout: page
+title: "Supply Chain Network Design"
+permalink: https://cc-odonnell.github.io/portfolio/supply_chain_network_design
 theme: jekyll-theme-minimal
+---
 
 *How Supply Chain Strategy Can Tackle Infectious Diseases*
 
