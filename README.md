@@ -11,7 +11,7 @@ some code here
 ```
 
 Link to another page
-[page description](https://site)
+[Supply Chain Network Design](https://github.com/cc-odonnell/portfolio/blob/main/supply_chain_network_design.md)
 
 Insert an image
 ![image description](./assets/tanker_image.png)
