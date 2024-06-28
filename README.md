@@ -6,9 +6,10 @@ Colleagues consistently describe me as “technically tenacious” for my abilit
 
 I thrive in ambiguity, and love the opportunity it gives me to create clarity from uncertainty. My ability to combine both strategic, systems thinking and tactical, hands-on problem solving make me a versatile 'utility player' in any organization.
 
-[SKILL SET IMAGE HERE]
+![Core Comp](./assets/CoreCompetencies.png)
 
 Read more about me here: Skills and Areas of Interest
+
 Connect with me on [LinkedIn](https://www.linkedin.com/in/cecilia-o-donnell/)
 
 # Sample Projects
