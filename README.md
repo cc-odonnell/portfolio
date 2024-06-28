@@ -10,7 +10,7 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/cecilia-o-donnell/)
 
 _Note: Visualizations Created with Tableau. Data taken from publicly available sources._
 
-## Navigating the Future: The Challenges of Forecasting
+## Navigating the Future of High-Cap Investments: The Challenges of Forecasting
 
 Using census data, I undertook the task of predicting Target store locations by simulating a 2017 perspective and projecting forward to 2019. Despite relying on population growth data, my recommendations and actual store placements rarely aligned with high-growth areas, underscoring the complexity of accurate long-term forecasting.
 ![Tableau Data Viz](./assets/TableauMapsSmall.png)
@@ -34,5 +34,15 @@ When the Ebola virus swept through West Africa from April 2014 to March 2015, th
 To optimize the placement of medical centers, I used a linear programming model. My goal was to minimize the travel distance between patients and medical centers. This model revealed that strategically redistributing existing resources could dramatically cut travel distances for patients by over 1,000 people-miles. In Sierra Leone, targeting outlying areas like Kono and Jui could capture an additional 53% of cases.
 
 Sample linear programming code here: [Supply Chain Network Design](https://github.com/cc-odonnell/misc/blob/main/medical_center_locations.R)
+
+## Visualizing Production Downtime: Prioritization and Resource Allocation through Pareto Analysis
+
+A Pareto analysis is a tool that helps prioritize which problems to address first by focusing on the most significant issues that will have the largest impact if resolved. It assists in allocating resources more effectively by targeting areas that will provide the greatest return on investment. A company facing low productivity rates has only 4 out of its 10 product lines operating at or near the target threshold of 60% utilization.
+
+![Tableau Data Viz](./assets/TableauBarChartsSmall.png)
+
+**Key Takeaways:**
+
+A Pareto analysis identified machine downtime as the primary cause of overall downtime, constituting nearly 20% of observed time. Within machine downtime, scheduled maintenance was the most frequent cause, accounting for 50% of that category. The second most common downtime reason was product lines not running for the full shift, representing almost 10% of observed time. Key recommendations are to 1) minimize downtime during productive hours, and 2) rework staffing schedules to ensure product lines operate for the full 8-hour shifts to improve utilization rates.
 
 
