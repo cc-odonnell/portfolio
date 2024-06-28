@@ -1,10 +1,10 @@
-#Supply Chain Data Scientist 
+# Supply Chain Data Scientist 
 
-#About Me
+# About Me
 
 Blurb here. 
 
-LinkedIn [LinkedIn](https://www.linkedin.com/in/cecilia-o-donnell/)
+Connect with me on LinkedIn [LinkedIn](https://www.linkedin.com/in/cecilia-o-donnell/)
 
 ## Sample Projects
 
