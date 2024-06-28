@@ -1,6 +1,6 @@
 # Supply Chain Data Scientist 
 
-# About Me
+## About Me
 
 Colleagues consistently describe me as “technically tenacious” for my ability to track down answers and build teams of thought partners around me. In my previous role, I earned the nickname “The Bridge” for my knack for facilitating collaboration between data science and business teams, especially during the early proof-of-concept stages.
 
@@ -8,15 +8,14 @@ I thrive in ambiguity, and love the opportunity it gives me to create clarity fr
 
 ![Core Comp](./assets/CoreCompetencies.png)
 
-Read more about me here: Skills and Areas of Interest
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/cecilia-o-donnell/)
 
-# Sample Projects
+## Sample Projects
 
-_Note: Visualizations Created with Tableau. Data taken from publicly available sources._
+_Note: Visualizations created with Tableau. Data taken from publicly available sources._
 
-## Navigating the Future of High-Cap Investments: The Challenges of Forecasting
+### The Future of High-Cap Investments: The Challenges of Forecasting
 
 Using census data, I undertook the task of predicting Target store locations by simulating a 2017 perspective and projecting forward to 2019. Despite relying on population growth data, my recommendations and actual store placements rarely aligned with high-growth areas, underscoring the complexity of accurate long-term forecasting.
 ![Tableau Data Viz](./assets/TableauMapsSmall.png)
@@ -31,7 +30,7 @@ Using census data, I undertook the task of predicting Target store locations by 
 Sample R code here:[Forecasting Store Locations](https://github.com/cc-odonnell/misc/blob/main/store_locations.R)
 
 
-## Improving Medical Care: Optimizing Network Design
+### Improving Medical Care: Optimizing Network Design
 
 When the Ebola virus swept through West Africa from April 2014 to March 2015, the urgency to effectively treat patients was paramount. Understanding where to place medical centers for rapid treatment became a critical task for NGOs and government agencies. By applying a strategic supply chain approach—similar to locating stores for customers or positioning manufacturing plants near warehouses—we can significantly improve healthcare outcomes. To optimize the placement of medical centers, I used a linear programming model. My goal was to minimize the travel distance between patients and medical centers. 
 
@@ -42,7 +41,7 @@ This model revealed that strategically redistributing existing resources could d
 
 Sample linear programming code here: [Supply Chain Network Design](https://github.com/cc-odonnell/misc/blob/main/medical_center_locations.R)
 
-## Visualizing Production Downtime: Prioritization and Resource Allocation through Pareto Analysis
+### Visualizing Production Downtime: Prioritization through Pareto Analysis
 
 A Pareto analysis is a tool that helps prioritize which problems to address first by focusing on the most significant issues that will have the largest impact if resolved. It assists in allocating resources more effectively by targeting areas that will provide the greatest return on investment. A company facing low productivity rates has only 4 out of its 10 product lines operating at or near the target threshold of 60% utilization.
 
