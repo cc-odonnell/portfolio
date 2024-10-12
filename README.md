@@ -51,4 +51,34 @@ A Pareto analysis is a tool that helps prioritize which problems to address firs
 
 A Pareto analysis identified machine downtime as the primary cause of overall downtime, constituting nearly 20% of observed time. Within machine downtime, scheduled maintenance was the most frequent cause, accounting for 50% of that category. The second most common downtime reason was product lines not running for the full shift, representing almost 10% of observed time. Key recommendations are to 1) minimize downtime during productive hours, and 2) rework staffing schedules to ensure product lines operate for the full 8-hour shifts to improve utilization rates.
 
+**A Comparative Approach to Inventory Optimization**
+
+In traditional inventory management, determining reorder points and quantities (R and Q) often relies on textbook formulas that assume a single ordering period. But real-world supply chains, with their dynamic demand patterns and varying lead times, need a more flexible framework. My goal was to create just that—a versatile approach for setting R and Q values in complex situations, including both single and multi-echelon network designs.
+
+Sample python code here:[Inventory Modeling]([https://github.com/cc-odonnell/im_model])
+
+
+### Building the Framework
+To develop this framework, I generated synthetic demand and lead time data, then created a simulation that modeled inventory behaviors over time. Using this simulated data, I conducted a factorial design analysis, testing various combinations of R and Q to map out the feasible solution space. This allowed me to explore how different reorder points and order quantities affected outcomes across different inventory configurations.
+
+### Comparing Three Optimization Methods
+The focus of my analysis was on comparing the optimal solutions given by three common methods: cut-off thresholds, linear programming (LP), and multi-objective optimization (Pareto Optimality).
+
+**Cut-Off Thresholds**:
+**Example**: Of the solutions with a fill rate greater than 95%, which one minimizes the number of deliveries?
+**Pros**: Easy to understand and simple to program. The process stops at the first feasible solution that meets the fill rate threshold, then identifies the scenario with the fewest deliveries.
+**Cons**: This approach may miss better solutions where a slightly lower fill rate (e.g., 95.1%) might reduce deliveries significantly—achieving a more balanced outcome.
+
+**Linear Programming**:
+**Example**: Define an objective function to minimize total deliveries and cubic space used, subject to the constraint that fill rate must exceed 95%.
+**Pros**: Best if you know the relative importance of each objective (e.g., fill rate vs. delivery count). LP provides a clear, optimal solution without the need to evaluate many trade-offs.
+**Cons**: It’s more suited to simpler problems where trade-offs are well understood. Adjusting weights can be tricky if priorities shift.
+
+**Multi-Objective Optimization (Pareto Optimality)**:
+**Example**: Which solutions provide the best balance between fill rate and total deliveries?
+**Pros**: Ideal for exploring trade-offs between competing objectives before making a decision. It’s perfect for complex scenarios where objectives are difficult to prioritize, offering a range of optimal solutions.
+**Cons**: More computationally intensive, but it provides a broader view of possible outcomes, making it especially valuable when discussing options with stakeholders.
+
+### Key Takeaways
+This project highlights the value of combining **simulation and optimization** in inventory management. Each method has its place: cut-off thresholds are fast and simple, LP is effective for direct optimization when priorities are clear, and Pareto analysis shines when navigating complex trade-offs. By leveraging these tools, companies can build more responsive and efficient inventory policies that adapt to the realities of continuous ordering and dynamic supply chains.
 
