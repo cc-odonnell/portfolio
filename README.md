@@ -55,11 +55,13 @@ A Pareto analysis identified machine downtime as the primary cause of overall do
 
 In traditional inventory management, determining reorder points and quantities (R and Q) often relies on textbook formulas that assume a single ordering period. But real-world supply chains, with their dynamic demand patterns and varying lead times, need a more flexible framework. My goal was to create just that—a versatile approach for setting R and Q values in complex situations, including both single and multi-echelon network designs.
 
-Sample python code here:[Inventory Modeling]([https://github.com/cc-odonnell/im_model])
+Sample python code here:[Inventory Modeling](https://github.com/cc-odonnell/im_model)
 
 
 ### Building the Framework
 To develop this framework, I generated synthetic demand and lead time data, then created a simulation that modeled inventory behaviors over time. Using this simulated data, I conducted a factorial design analysis, testing various combinations of R and Q to map out the feasible solution space. This allowed me to explore how different reorder points and order quantities affected outcomes across different inventory configurations.
+
+![Tableau Data Viz](./assets/TableauBarChartsSmall.png)
 
 ### Comparing Three Optimization Methods
 The focus of my analysis was on comparing the optimal solutions given by three common methods: cut-off thresholds, linear programming (LP), and multi-objective optimization (Pareto Optimality).
