@@ -1,4 +1,4 @@
-# Supply Chain Data Scientist 
+# Data Scientist | Strategy & Operations
 
 ## About Me
 
