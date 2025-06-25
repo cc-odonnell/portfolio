@@ -15,6 +15,12 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/cecilia-o-donnell/)
 
 _Note: Visualizations created with Tableau. Data taken from publicly available sources._
 
+## Validating Clinical Data for Quality Measures using AI
+This project builds on an early prototype originally created in Hex and Google Sheets. I joined the effort to extend the system’s capabilities, deepen the clinical logic, and design a scalable production-ready architecture. My focus was on clarifying CCS-specific compliance logic, identifying edge cases in HIE data, writing SQL for structured extraction, and proposing a GCP-native deployment strategy. The work represents a collaborative step toward automating clinical quality measurement using LLMs.
+
+Read more [here](github.com/cc-odonnell/misc/blob/main/clinical-ai.html)
+
+
 ## The Future of High-Cap Investments: The Challenges of Forecasting
 
 Using census data, I undertook the task of predicting Target store locations by simulating a 2017 perspective and projecting forward to 2019. Despite relying on population growth data, my recommendations and actual store placements rarely aligned with high-growth areas, underscoring the complexity of accurate long-term forecasting.
